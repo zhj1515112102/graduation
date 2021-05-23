@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Honey</title>
+		<style>
+			body{
+				background-color: lightgray;
+			}
+			div{
+				width: 100px;
+				height: 100px;
+				background-color: #096;
+				margin: 300px auto 70px;
+				transform: rotate(45deg);
+				animation: beat 1s infinite;
+				filter: drop-shadow(0px 0px 40px rgb(144 238 144));
+				/* 滤镜 给图像添加阴影效果 水平 垂直 模糊半径 颜色 */
+			}
+			div::before,div::after{
+				position: absolute;
+				content:"";
+				width: 100px;
+				height: 100px;
+				background-color: #096;	
+			}
+			@keyframes beat{
+				0%{
+					transform: rotate(45deg) scale(1);	
+				}
+				100%{
+					transform: rotate(45deg) scale(1.2);
+				}
+			}
+			div::before{
+				left: -60px;
+				border-radius: 50px 0 0 50px;
+			}
+			div::after{
+				top: -60px;
+				background-color: #096;
+				border-radius: 50px 50px 0 0;
+			}
+			p{
+				text-align: center;
+				margin: 0;
+				padding: 0;
+				font-size: 30px;
+				font-family: '幼圆';
+				font-weight: bolder;
+				color: #096;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<a href="./index.html"><div></div></a>
+		<p>Guard the heart of the earth!</p>
+		<p>守护地球的心脏！</p>
+	</body>
+</html>

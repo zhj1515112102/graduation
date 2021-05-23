@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;
+
+}
+#fatHeader{
+    width: 100%;
+}
+.positionHeader{
+    position: relative;
+    box-shadow: 1px 0px 15px rgb(0 0 0/50%);
+}
+/* .clear{
+    zoom: 1;
+} */
+nav{
+    width: 100%;
+    height: 40.8px;
+    background-color: rgb(42, 141, 200);
+    /* background-image: ; */
+    /* background-repeat: no-repeat; */
+    /* border-radius: 0 0 10px 10px; */
+}
+ul{
+    display: block;
+    list-style-type: none;
+}
+nav li{
+    float: right;
+    padding: 11px 0;
+    list-style: none;
+}
+nav a{
+    font-size: 13px;
+    font-weight: normal;
+    float: left;
+    padding: 1px 19px;
+    transition: all .5s;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid rgba(255,255,255,.75);
+}
+.clear:after {
+    display: block;
+    clear: both;
+    content: ' ';
+}
+.head{
+    width: 1100px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.head img{
+    margin: 14px 0 0 2px;
+    position: relative;
+    float: left;
+}
+.head .search{
+    float: right;
+}
+.head ul{
+    margin-top: 14px;
+    position: relative;
+}
+#date {
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 4px;
+    color: #0a6da2;
+    text-align: right;
+}
+input#search {
+    width: 252px;
+    height: 35px;
+    padding-left: 23px;
+    border: 2px solid #ddd;
+    border-width: 1px;
+    border-color: #c6c6c6;
+    border-radius: 6px;
+    background: url(../images/searchLogo.png) 99% no-repeat #eaeaea;
+}
+.tab {
+    width: 1100px;
+    height: 45px;
+    position: relative;
+    padding: 15px 0 0 170px;
+    margin: 0 auto;
+    background: white;
+}
+.tab ul .tabsy {
+    text-align: center;
+    background: url(../images/navPointer.png) 50% 100% no-repeat;
+}
+.tab ul .tabey {
+    text-align: center;
+}
+.tabey:hover{
+    background: url(../images/navPointer.png) 50% 100% no-repeat;
+}
+.tab ul li {
+    float: left;
+    display: inline;
+    font: 0.9em Arial, Helvetica, sans-serif;
+    height: 45px;
+    width: 140px;
+    list-style: none;
+}
+.tab ul li a {
+    text-decoration: none;
+    line-height: 22px;
+    font-size: 20px;
+    width: 145px;
+    color: rgba(0,0,0,.8);
+    margin: 0px;
+    padding: 0;
+}
+
+.mainContainer2{
+    width: 100%;
+    height: 1000px;
+    padding-top: 50px;
+    background: url(../images/indexBackground.png) 0 0;
+    background-size: 100% 100%;
+}
+
+.mainWapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.sidecontainer{
+    width: 300px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../images/sidecontainerBackground.png);
+    background-size: 100% 100%;
+}
+.sidecontainer ul h1 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 55px;
+    width: 300px;
+    height: 55px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: #e6e4e1;
+    background: url(../images/sideBigBoxBackground.png);
+}
+.sidecontainer ul li {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 44px;
+    width: 100%;
+    height: 44px;
+    list-style: none;
+    text-align: center;
+    color: #014778;
+    
+}
+.slideside:hover{
+    background: #d5ebf9;
+}
+.sidecontainer ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 44px;
+    width: 100%;
+    height: 44px;
+    list-style: none;
+    text-align: center;
+    color: #014778;
+    text-decoration: none;
+}
+.contentDisplay{
+    display: inline-block;
+    vertical-align: top;
+}
+.content{
+    width: 760px;
+    height: 700px;
+    background: rgb(255, 255, 255,0.5);
+    
+}
+.content h1 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 55px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 55px;
+    padding-left: 46px;
+    list-style: none;
+    text-align: left;
+    color: #014778;
+    background: #d5ebf9;
+}
+.content img{
+    position: relative;
+    left: 50%;
+    margin-left: -114px;
+}
+pre{
+    white-space: normal; 
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.Footer {
+    width: 100%;
+    height: 120px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: 17px;
+    background-color: #57c3c2;
+    margin-top: 10px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .tab {
+        width: 1100px;
+        padding: 15px 0 0 100px;
+        margin: 0 auto;
+        background: green;
+    }
+
+    .tab ul .tabsy {
+        text-align: center;
+        background: url(../images/navPointer.png) 50% 100% no-repeat;
+    }
+
+    .tab ul .tabey {
+        text-align: center;
+    }
+
+    .tabey:hover {
+        background: url(../images/navPointer.png) 50% 100% no-repeat;
+    }
+
+    .tab ul {
+        clear: both;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tab ul li {
+        display: inline;
+        font: 0.9em sans-serif;
+        height: 45px;
+        width: 140px;
+        list-style: none;
+    }
+
+    .tab ul li a {
+        text-decoration: none;
+        line-height: 22px;
+        font-size: 20px;
+        width: 145px;
+        color: rgba(0, 0, 0, .8);
+        margin: 0px;
+        padding: 0;
+    }
+
+    .clear:after {
+        display: block;
+        clear: both;
+        content: ' ';
+    }
+</style>
+
+<body>
+    <div class="tab clear">
+        <ul id="tab1">
+            <li class="tabsy"><a href="">首页</a></li>
+            <li class="tabey"><a href="">哈哈哈哈</a></li>
+            <li class="tabey"><a href="">嘻嘻嘻嘻</a></li>
+            <li class="tabey"><a href="">呵呵呵呵</a></li>
+            <li class="tabey"><a href="">额鹅额鹅鹅</a></li>
+            <li class="tabey"><a href="">啊啊啊啊</a></li>
+            <li class="tabey"><a href="">噢噢噢噢</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        width: 750px;
+        height: 460px;
+        margin: 100px auto;
+        background-color: #096;
+        overflow: hidden;
+    }
+    img{
+        width: 750px;
+        height: 460px;
+    }
+    ul,li{
+        list-style: none;
+    }
+    .box ul{
+        display: flex;
+        animation: aaa 8s infinite;
+    }
+    @keyframes aaa{
+        0%{
+            margin-left: 0px;
+        }
+        20%{
+            margin-left: -750px;
+        }
+        40%{
+            margin-left: -1500px;
+        }
+        60%{
+			margin-left: -2250px;
+		}
+		80%{
+			margin-left: -3000px;
+		}
+		100%{
+			margin-left: 0px;
+		}
+    }
+
+</style>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <img src="images/LOL.jpg" alt="1"/>
+            </li>
+            <li>
+                <img src="./images/下载.jpg"/>
+            </li>
+            <li>
+                <img src="images/LOL.jpg"/>
+            </li>
+            <li>
+                <img src="images/LOL.jpg"/>
+            </li>
+            <li>
+                <img src="./images/下载.jpg"/>
+            </li>
+            
+        </ul>
+    </div>
+</body>
+</html>

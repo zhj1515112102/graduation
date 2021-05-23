@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/biaodan.css">
+
+    <title>问卷调查</title>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th><img src="./images/gai1.jpg" alt=""></th>
+            </tr>
+            <tr>
+                <th>
+                    <h1>调查问卷</h1>
+                </th>
+            </tr>
+            <tr>
+                <td>您的年龄？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="age" value="20以下">20以下
+                    <input type="radio" name="age" value="20-40">20-40
+                    <input type="radio" name="age" value="40-60">40-60
+                    <input type="radio" name="age" value="60以上">60以上
+                </td>
+            </tr>
+            <tr>
+                <td>您的职业？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="occupation" value="老板">老板
+                    <input type="radio" name="occupation" value="打工人">打工人
+                    <input type="radio" name="occupation" value="学生">学生
+                    <input type="radio" name="occupation" value="公职人员">公职人员
+                </td>
+            </tr>
+            <tr>
+                <td>您的地址？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="address" value="城市">城市
+                    <input type="radio" name="address" value="农村">农村
+                </td>
+            </tr>
+            <tr>
+                <td>Q1：您知道世界环保日是哪一天吗？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Q1" value="4月22日">4月22日
+                    <input type="radio" name="Q1" value="6月5日">6月5日
+                    <input type="radio" name="Q1" value="6月22日">6月22日
+                </td>
+            </tr>
+            <tr>
+                <td>Q2：您使用一次性餐具吗？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Q2" value="经常">经常
+                    <input type="radio" name="Q2" value="偶尔">偶尔
+                    <input type="radio" name="Q2" value="几乎不用">几乎不用
+                </td>
+            </tr>
+            <tr>
+                <td>Q3：您对生活垃圾怎么处理？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Q3" value="分类处理">分类处理
+                    <input type="radio" name="Q3" value="能卖则卖">能卖则卖
+                    <input type="radio" name="Q3" value="直接扔垃圾桶">直接扔垃圾桶
+                </td>
+            </tr>
+            <tr>
+                <td>Q4：您认为发展经济和环保哪个重要？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Q4" value="发展经济">发展经济
+                    <input type="radio" name="Q4" value="环保">环保
+                    <input type="radio" name="Q4" value="一样重要">一样重要
+                </td>
+            </tr>
+
+            <tr>
+                <td>Q5：给您提供机会，您会参与植树活动吗？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Q5" value="会">会
+                    <input type="radio" name="Q5" value="不会">不会
+                    <input type="radio" name="Q5" value="自费就不会">自费就不会
+                </td>
+            </tr>
+            <tr>
+                <td>Q6：您了解垃圾的去向吗？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Q6" value="分类回收">分类回收
+                    <input type="radio" name="Q6" value="垃圾场">垃圾场
+                    <input type="radio" name="Q6" value="不知道">不知道
+                </td>
+            </tr>
+            <tr>
+                <td>Q7：您有参加过有关环保方面的活动吗？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Q7" value="从来没有">从来没有
+                    <input type="radio" name="Q7" value="偶尔参加">偶尔参加
+                    <input type="radio" name="Q7" value="经常参加">经常参加
+                </td>
+            </tr>
+            <tr>
+                <td>Q8：您认为当前面临的环境污染的主要问题有哪些？</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" value="会">会
+                    <input type="checkbox" value="不会">不会
+                    <input type="checkbox" value="自费就不会">自费就不会
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Q9：请您写下一句您记忆最深刻的环保口号或是自己为环保事业说一句话
+                </td>
+            </tr>
+            <tr>
+                <td><textarea name="" id="" cols="80" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" class="new_button1" onclick="tips()">
+                    <input type="reset" class="new_button2">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function tips() {
+            alert('谢谢参与');
+        }
+    </script>
+</body>
+
+</html>
